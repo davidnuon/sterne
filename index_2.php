@@ -3,13 +3,12 @@
 <?php include("inc/header.php"); ?>
 
 
-<div class="content-wrapper" style="background-color: #ebcac3">
+<div class="content-wrapper" style="background-image: url(img/fml.png); background-color: #71c6f1;">
 	<div class="container_12">
-		<div class="hero-message grid_5" style="margin-top: 320px; background: #333;">
-			<h1>Web of Doodle</h1>
+		<div class="hero-message grid_4" style="margin-top: 330px; background: #333;">
+			<h1>Headaches. </h1>
 			<div class="content">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-					Mollitia, comm.</p>
+				<p>Every browser is special, we're going to talk about how to deal with it.</p>
 			</div>
 		</div>
 	</div>

@@ -88,7 +88,7 @@ body {
 }
 
 .content-wrapper {
-	background: url(../img/bg.jpg) center -140px no-repeat #111;
+	background: url(../img/drawing.png) center top no-repeat #bbd3d6;
 	height: 550px;
 	padding:80px 0 0 0;
 	box-shadow:rgba(0,0,0,.6) 0px 2px 10px;
