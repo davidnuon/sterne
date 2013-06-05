@@ -5,7 +5,7 @@
 	
 		<div class="grid_4">
 			<div id="logo">
-				sigweb@thebeach
+				<img src="img/logo.png" alt="">
 			</div>		
 		</div>
 
