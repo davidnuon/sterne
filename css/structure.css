@@ -1,0 +1,44 @@
+/*
+  No Document Padding
+  ===================
+  This allows us to have elements that strech for
+  the span of the document.
+*/
+
+body, html {
+  width:100%;
+  height: 100%; 
+
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*
+  Horizontal Navi(gation)
+  =====================
+  Uses ul>li*>a or ol>li*>a to make the horzizntal navigation pattern
+ */
+
+.horizontal-navi {
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-navi ul {
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-navi li {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.horizontal-navi ul li a {
+  display: block;
+  padding: 0;
+  margin: 0;
+}

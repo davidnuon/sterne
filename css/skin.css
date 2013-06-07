@@ -1,0 +1,16 @@
+/*
+	Skins
+	=====
+
+	Style that only exist for changing the appearance of an element
+*/
+
+.skin-black-glass-shadow {
+	background: #333;
+	background: rgba(0,0,0,.3);
+	
+	box-shadow:rgba(0,0,0,.3) 0px 2px 3px;
+	border-bottom:#333 1px solid;
+	border-bottom:rgba(0,0,0,.4) 1px solid;
+
+}
