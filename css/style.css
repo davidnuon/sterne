@@ -1,7 +1,6 @@
 /*
 	Body
 	====
-
 	Base styles for the page
 */
 
@@ -16,7 +15,6 @@ body {
 /*
 	Header
 	======
-	
 	Contains the overhead navigation of the page
 */
 header {
@@ -31,7 +29,6 @@ header {
 /*
 	Logo
 	----
-
 	Style for the acm/sigweb logo
 */
 
@@ -74,7 +71,6 @@ header .main-overhead-navi ul li a:hover {
 /*
 	Footer
 	======
-
 	Contains the copyright information and possible
 	extra navigation
 */
@@ -82,13 +78,4 @@ footer {
 	text-align: center;
 	color:#fff;
 	height: 100px;
-}
-
-
-
-.content-wrapper {
-	background-color#333;
-	height: 550px;
-	padding:80px 0 0 0;
-	box-shadow:rgba(0,0,0,.6) 0px 2px 10px;
 }
