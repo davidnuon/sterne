@@ -1,6 +1,6 @@
 <?php include("document-top.php"); ?>
 
-	<header>
+	<header class="skin-black-glass-shadow">
 	<div class="container_12">
 	
 		<div class="grid_4">

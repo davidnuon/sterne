@@ -5,7 +5,7 @@
 
 <div class="content-wrapper" style="background:url(img/bg.jpg) center -130px">
 	<div class="container_12">
-		<div class="hero-message grid_5" style="background-position: -140px; margin-top: 220px;">
+		<div class="hero-message grid_5 skin-black-glass-shadow" style="margin-top: 220px;">
 			<h1>Klar, sauber, sterne</h1>
 			<div class="content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
