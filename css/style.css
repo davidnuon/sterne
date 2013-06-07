@@ -56,17 +56,17 @@ header .main-overhead-navi {
 header .main-overhead-navi ul li a {
 	text-transform: lowercase;
 
+
 	font-size:1.4em;
 	color: #fff;
 
 	padding: 23px 20px;
 	text-decoration: none;
-}1
-
-header .main-overhead-navi ul li a:hover {
-	background: rgba(0,0,0,.3);
 }
 
+header .main-overhead-navi ul li a:hover {
+	background: rgba(0,0,0,.4) !important;
+}
 
 /*
 	Footer
