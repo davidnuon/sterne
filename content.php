@@ -3,7 +3,7 @@
 <?php include("inc/header.php"); ?>
 
 
-<div class="content-wrapper" style="height:100px; background:url(img/bg.jpg)">
+<div class="hero-banner" style="background:url(img/bg.jpg)">
 	<div class="container_12">
 		<h1>Test for All</h1>
 	</div>
