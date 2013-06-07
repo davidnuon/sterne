@@ -12,5 +12,6 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/home.css">
 		<link rel="stylesheet" href="css/content.css">
+		<link rel="stylesheet" href="css/events.css">
 	</head>
 	<body>

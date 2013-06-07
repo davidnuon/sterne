@@ -5,7 +5,7 @@
 
 <div class="hero-wrapper">
 	<div class="container_12">
-		<div class="hero-message skin-black-glass-shadow grid_5" style="margin-top: 320px;">
+		<div class="hero-message skin-black-glass-shadow grid_5" style="margin-top: 220px;">
 			<h1>Web of Doodle</h1>
 			<div class="content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 

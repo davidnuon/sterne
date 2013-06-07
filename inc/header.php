@@ -1,23 +1,22 @@
 <?php include("document-top.php"); ?>
-
 	<header class="skin-black-glass-shadow">
 	<div class="container_12">
 	
 		<div class="grid_4">
-			<div class="logo">
+			<a href="index.php">
 				<img src="img/logo.png" alt="">
-			</div>		
+			</a>
 		</div>
 
-		<div class="grid_8 push_1">
+		<div class="grid_8">
 			<nav class="main-overhead-navi horizontal-navi">
 				<ul>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Events</a></li>
-					<li><a href="#">Outreach</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Press</a></li>
-					<li><a href="#">acm*</a></li>
+					<li><a href="content.php">Projects</a></li>
+					<li><a href="events.php">Events</a></li>
+					<li><a href="content.php">Outreach</a></li>
+					<li><a href="content.php">About</a></li>
+					<li><a href="content.php">Press</a></li>
+					<li><a href="content.php">acm*</a></li>
 				</ul>
 			</nav>
 		</div>

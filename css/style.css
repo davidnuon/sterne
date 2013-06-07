@@ -33,11 +33,7 @@ header {
 */
 
 header .logo { 
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #fff;
-
-	font-size:40px;
-	line-height: 15px;
+	background: red;
 	display: block;
 }
 
@@ -79,6 +75,5 @@ header .main-overhead-navi ul li a:active {
 */
 footer {
 	text-align: center;
-	color:#fff;
 	height: 100px;
 }
