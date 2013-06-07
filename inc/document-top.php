@@ -7,6 +7,7 @@
 
 		<link rel="stylesheet" href="css/structure.css">
 		<link rel="stylesheet" href="css/skin.css">
+		<link rel="stylesheet" href="css/type.css">
 	
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/home.css">
