@@ -3,7 +3,7 @@
 <?php include("inc/header.php"); ?>
 
 
-<div class="content-wrapper" style="background-color: #ebcac3">
+<div class="hero-wrapper" style="background-color: #ebcac3">
 	<div class="container_12">
 		<div class="hero-message grid_5" style="margin-top: 320px; background: #333;">
 			<h1>Web of Doodle</h1>
