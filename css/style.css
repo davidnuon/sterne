@@ -65,6 +65,10 @@ header .main-overhead-navi ul li a {
 }
 
 header .main-overhead-navi ul li a:hover {
+	background: rgba(0,0,0,.2) !important;
+}
+
+header .main-overhead-navi ul li a:active {
 	background: rgba(0,0,0,.4) !important;
 }
 
