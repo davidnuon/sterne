@@ -60,7 +60,12 @@ header .main-overhead-navi ul li a {
 }
 
 header .main-overhead-navi ul li a:hover {
-	background: rgba(0,0,0,.2) !important;
+	background: rgba(200,200,200,.2) !important;
+     -webkit-transition: background-color .3s cubic;
+     -moz-transition: background-color .3s cubic;
+     -o-transition: background-color .3s cubic;
+     -ms-transition: background-color .3s cubic;
+     transition: background-color .3s cubic;
 }
 
 header .main-overhead-navi ul li a:active {
