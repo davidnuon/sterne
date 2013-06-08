@@ -1,0 +1,80 @@
+@import 'animated.scss';
+
+/* 
+
+Events Pages
+============
+Describes the styles that will be used for the events listing page
+and event view pages.	
+*/
+
+/*
+
+Events List
+-----------
+Styles for the events listing
+
+*/
+.events-list-body {
+	background:#ddd;
+}
+
+/*
+
+### Event Poster Container
+A collection of Event Items
+
+#### Event Item
+A link to an event that is represented by
+an image of a poster and text.
+
+*/
+.event-poster-container 
+{
+	h2 {
+		
+	}
+
+	.event-item 
+	{
+		display: block;
+		background: #ddd;
+		height: 305px;	
+		float: left;	
+		box-shadow: rgba(0,0,0,.5) 0px 1px 2px;
+		position:relative;
+		overflow:hidden;
+	
+		.event-info {
+			background:rgba(0,0,0,.4);
+			position: absolute;
+
+			bottom:0;
+			right:0;
+			left:0;
+			width:220px;
+			height:100px;
+		}
+
+
+		// Psuedo-classes for the event-item
+		&:hover 
+		{
+			background: #555;
+		}
+
+		&:hover .event-info {
+			height:305px;
+			background:rgba(0,0,0,.8);
+
+			@include transition(height 0.07s, background-color .3s);
+		}
+
+
+		// Other Elements that reside in
+		img {
+			width:100%;
+		}
+		
+	} 
+}
