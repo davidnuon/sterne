@@ -1,0 +1,90 @@
+@import 'skins.scss';
+
+/*
+	Body
+	====
+	Base styles for the page
+*/
+
+body {
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	
+	font-size: 15px;
+	
+	background: #232323;
+	color:#fff;
+}
+
+/*
+	Header
+	======
+	Contains the overhead navigation of the page
+*/
+header {
+	@include skin-black-glass-shadow(true);
+
+	height: 70px;
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;	
+}
+
+/*
+	Logo
+	----
+	Style for the acm/sigweb logo
+*/
+
+header .logo { 
+	background: red;
+	display: block;
+}
+
+/*
+	Overhead Navi
+	-------------
+	Styles the overhead navigation for the entire page
+*/
+
+header .main-overhead-navi {
+	text-shadow:rgba(0,0,0,.6) 0px 2px 2px;
+}
+
+header .main-overhead-navi ul li a {
+	text-transform: lowercase;
+
+
+	font-size:1.2em;
+	color: #fff;
+
+	padding: 23px 20px;
+	text-decoration: none;
+}
+
+header .main-overhead-navi ul li a:hover {
+	background: rgba(200,200,200,.2) !important;
+     -webkit-transition: background-color .3s cubic;
+     -moz-transition: background-color .3s cubic;
+     -o-transition: background-color .3s cubic;
+     -ms-transition: background-color .3s cubic;
+     transition: background-color .3s cubic;
+}
+
+header .main-overhead-navi ul li a:active {
+	background: rgba(0,0,0,.4) !important;
+}
+
+/*
+	Footer
+	======
+	Contains the copyright information and possible
+	extra navigation
+*/
+footer {
+	@include skin-black-glass-shadow(false);
+
+	text-align: center;
+	height: 100px;
+}

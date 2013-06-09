@@ -1,5 +1,5 @@
 <?php include("document-top.php"); ?>
-	<header class="skin-black-glass-shadow">
+	<header>
 	<div class="container_12">
 	
 		<div class="grid_4">
@@ -11,7 +11,7 @@
 		<div class="grid_8">
 			<nav class="main-overhead-navi horizontal-navi">
 				<ul>
-					<li><a href="content.php">Projects</a></li>
+					<li><a href="projects.php">Projects</a></li>
 					<li><a href="events.php">Events</a></li>
 					<li><a href="content.php">Outreach</a></li>
 					<li><a href="content.php">About</a></li>

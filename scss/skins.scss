@@ -1,0 +1,18 @@
+@mixin skin-black-glass-shadow ($top) {
+	color:#fff;
+	
+	background: #333;
+	background: rgba(0,0,0,.7);
+	
+
+	@if($top) {
+		box-shadow:rgba(0,0,0,.3) 0px 2px 3px;
+		border-bottom:#333 1px solid;
+		border-bottom:rgba(0,0,0,.4) 1px solid;		
+	}
+	@else {
+		box-shadow:rgba(0,0,0,.3) 0px 2px -3px;
+		border-top:#333 1px solid;
+		border-top:rgba(0,0,0,.4) 1px solid;		
+	}
+}

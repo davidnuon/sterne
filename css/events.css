@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
 /* 
 
 Events Pages
@@ -41,80 +42,82 @@ an image of a poster and text.
 .events-list-body .event-poster-container h2 .term {
   color: #333;
 }
-.events-list-body .event-poster-container .event-item {
-  display: block;
-  background: #ddd;
-  height: 305px;
-  float: left;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+
+/*
+
+Events View
+-----------
+Styles for viewing a single event
+
+*/
+.events-view-body {
+  background: #fff;
+  color: #333;
+}
+
+/*
+
+### Event Poster Container
+A collection of Event Items
+
+#### Event Item
+A link to an event that is represented by
+an image of a poster and text.
+
+*/
+.events-view-body .event-view-container {
+  margin: 100px 0 30px 0;
+}
+.events-view-body .event-view-container .event-view-poster {
   position: relative;
-  overflow: hidden;
 }
-.events-list-body .event-poster-container .event-item .event-info {
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 220px;
-  height: 83px;
-  border-top: 1px solid rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px inset;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px inset;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px inset;
-}
-.events-list-body .event-poster-container .event-item .event-info .title {
-  color: #fff;
-  display: block;
-  padding: 20px 10px;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.5) 0px 2px 0px;
-}
-.events-list-body .event-poster-container .event-item .event-info .description:before {
-  content: "Description:";
-}
-.events-list-body .event-poster-container .event-item .event-info .data-item {
-  display: block;
-  font-size: 12px;
-  padding: 10px;
-  color: #fff;
-  border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
-}
-.events-list-body .event-poster-container .event-item .event-info .data-item:before {
-  font-weight: bold;
-  margin-right: 12px;
-}
-.events-list-body .event-poster-container .event-item .event-info .time:before {
-  content: "Time:";
-}
-.events-list-body .event-poster-container .event-item .event-info .date:before {
-  content: "Date:";
-}
-.events-list-body .event-poster-container .event-item .event-info .location:before {
-  content: "Location:";
-}
-.events-list-body .event-poster-container .event-item .event-info .description {
-  border: 0;
-  padding-top: 10px;
-}
-.events-list-body .event-poster-container .event-item:hover {
-  background: #555;
-}
-.events-list-body .event-poster-container .event-item:hover .event-info {
-  height: 305px;
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-transition: height 0.07s, background-color 0.3s;
-  -moz-transition: height 0.07s, background-color 0.3s;
-  -ms-transition: height 0.07s, background-color 0.3s;
-  -o-transition: height 0.07s, background-color 0.3s;
-  transition: height 0.07s, background-color 0.3s;
-}
-.events-list-body .event-poster-container .event-item:hover .title {
-  border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
-}
-.events-list-body .event-poster-container .event-item img {
+.events-view-body .event-view-container .event-view-poster img {
   width: 100%;
+}
+.events-view-body .event-view-container .event-view-poster .event-info span, .events-view-body .event-view-container .event-view-poster .event-info time {
+  color: #fff;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+.events-view-body .event-view-container .event-view-poster .event-info .title {
+  font-size: 85px;
+  text-align: center;
+  font-family: 'Archivo Narrow', sans-serif;
+  text-transform: uppercase;
+  top: 400px;
+  left: 0;
+  right: 0;
+  font-weight: bold;
+  line-height: 70px;
+  letter-spacing: -7px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 2px 2px;
+}
+.events-view-body .event-view-container .event-view-poster .event-info time {
+  left: 0;
+  right: 0;
+  width: 100%;
+  top: 550px;
+  font-family: 'Archivo Narrow', sans-serif;
+  text-align: center;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+.events-view-body .event-view-container .event-view-poster .event-info time * {
+  display: inline;
+  text-align: center;
+}
+.events-view-body .event-view-container .event-view-poster .event-info time *:after {
+  content: " //";
+}
+.events-view-body .event-view-container .event-view-poster .event-info time *:last-child:after {
+  content: '';
+}
+.events-view-body .event-view-container .event-view-poster .event-info .description {
+  right: 0;
+  top: 0;
+  width: 300px;
+  font-size: 20px;
+  display: none;
 }

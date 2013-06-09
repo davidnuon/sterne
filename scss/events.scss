@@ -1,6 +1,6 @@
 @import 'animated.scss';
 @import 'shadows.scss';
-
+@import 'mock.scss';
 /* 
 
 Events Pages
@@ -49,100 +49,52 @@ an image of a poster and text.
 			color:#333;
 		}
 	}
+} 
 
-	.event-item 
-	{
-		display: block;
-		background: #ddd;
-		height: 305px;	
-		float: left;	
-		box-shadow: rgba(0,0,0,.5) 0px 1px 2px;
-		position:relative;
-		overflow:hidden;
-	
-		.event-info 
-		{
-			background:rgba(0,0,0,.5);
-			position: absolute;
+/*
 
-			bottom:0;
-			right:0;
-			left:0;
-			width:220px;
-			height:83px;
-			border-top:1px solid rgba(0,0,0,.4);
-			@include box-shadow(rgba(0,0,0,.5) 0px 0px 20px inset);
-			
-			.title
-			{
-				color:#fff;
+Events View
+-----------
+Styles for viewing a single event
 
-				display: block;
-				padding:20px 10px;
-				font-size:20px;
-				font-weight:bold;
+*/
+.events-view-body {
+	background:#fff;
+	color:#333;
+}
 
-				text-transform:uppercase;
-				text-align:center;
-				text-shadow:rgba(0,0,0,.5) 0px 2px 0px;
-			}
+/*
 
+### Event Poster Container
+A collection of Event Items
 
-			.description:before {
-				content: "Description:"
-			}
-			.data-item {
-				display: block;
-				font-size:12px;
-				padding:10px;
-				color:#fff;
-				border-bottom: 1px rgba(255, 255, 255, .3) solid;
-			}
+#### Event Item
+A link to an event that is represented by
+an image of a poster and text.
 
-			.data-item:before {
-				font-weight: bold;
-				margin-right:12px;
-			}
+*/
 
-			.time:before {
-				content: "Time:";
-			}
+.events-view-body .event-view-container {
+	margin:100px 0 30px 0;
 
-			.date:before {
-				content: "Date:";
-			}
+	.event-view-poster {
+		position: relative;
 
-			.location:before {
-				content: "Location:";
-			}
-			.description {
-				border:0;
-				padding-top:10px;
-			}
-
-		}
-
-		// Psuedo-classes for the event-item
-		&:hover 
-		{
-			background: #555;
-		}
-
-		&:hover .event-info {
-			height:305px;
-			background:rgba(0,0,0,.8);
-			@include transition(height 0.07s, background-color .3s);
-		}
-
-		&:hover .title {
-			border-bottom: 1px rgba(255, 255, 255, .3) solid;
-		}
-
-
-		// Other Elements that reside in
 		img {
 			width:100%;
 		}
-		
+
+		.event-info 
+		{
+			span, time {
+				color:#fff;
+				position: absolute;
+				display: block;
+				top:0;
+				left:0;
+			}
+
+			@include mock-poster;
+		}
+	}	
 }
-	} 

@@ -13,5 +13,6 @@
 		<link rel="stylesheet" href="css/home.css">
 		<link rel="stylesheet" href="css/content.css">
 		<link rel="stylesheet" href="css/events.css">
+		<link rel="stylesheet" href="css/hero.css">
 	</head>
 	<body>

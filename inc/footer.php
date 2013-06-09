@@ -1,4 +1,4 @@
-<footer class="skin-black-glass-shadow">
+<footer>
 	<div class="container_12">
 		<p>&copy; CSULB ACM-SigWeb</p>
 	</div>
