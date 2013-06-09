@@ -18,6 +18,7 @@ Styles for the events listing
 */
 .events-list-body {
 	background:#ddd;
+	color:#333;
 }
 
 /*
@@ -30,11 +31,23 @@ A link to an event that is represented by
 an image of a poster and text.
 
 */
-.event-poster-container 
+.events-list-body .event-poster-container 
 {
+	h1 {
+		color:#222;
+		font-size: 50px;
+
+		padding: 0;
+		margin:0;
+		letter-spacing: -2px;
+	}
 	h2 {
 		color:#f00;
 		font-size:30px;
+
+		.term {
+			color:#333;
+		}
 	}
 
 	.event-item 
@@ -49,7 +62,7 @@ an image of a poster and text.
 	
 		.event-info 
 		{
-			background:rgba(0,0,0,.4);
+			background:rgba(0,0,0,.5);
 			position: absolute;
 
 			bottom:0;
@@ -80,8 +93,8 @@ an image of a poster and text.
 			}
 			.data-item {
 				display: block;
-				font-size:15px;
-				padding:20px 10px;
+				font-size:12px;
+				padding:10px;
 				color:#fff;
 				border-bottom: 1px rgba(255, 255, 255, .3) solid;
 			}
@@ -91,8 +104,12 @@ an image of a poster and text.
 				margin-right:12px;
 			}
 
-						.time:before {
+			.time:before {
 				content: "Time:";
+			}
+
+			.date:before {
+				content: "Date:";
 			}
 
 			.location:before {
@@ -102,7 +119,6 @@ an image of a poster and text.
 				border:0;
 				padding-top:10px;
 			}
-
 
 		}
 
@@ -128,5 +144,5 @@ an image of a poster and text.
 			width:100%;
 		}
 		
-	} 
 }
+	} 

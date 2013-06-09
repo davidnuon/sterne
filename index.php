@@ -70,11 +70,5 @@
 	</div>
 </div>
 
-<div class="container_12">
-	<div class="grid_12">
-		<hr>
-	</div>
-</div>
-
 
 <?php include("inc/footer.php"); ?>

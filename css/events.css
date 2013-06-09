@@ -14,6 +14,7 @@ Styles for the events listing
 */
 .events-list-body {
   background: #ddd;
+  color: #333;
 }
 
 /*
@@ -26,11 +27,21 @@ A link to an event that is represented by
 an image of a poster and text.
 
 */
-.event-poster-container h2 {
+.events-list-body .event-poster-container h1 {
+  color: #222;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  letter-spacing: -2px;
+}
+.events-list-body .event-poster-container h2 {
   color: #f00;
   font-size: 30px;
 }
-.event-poster-container .event-item {
+.events-list-body .event-poster-container h2 .term {
+  color: #333;
+}
+.events-list-body .event-poster-container .event-item {
   display: block;
   background: #ddd;
   height: 305px;
@@ -39,8 +50,8 @@ an image of a poster and text.
   position: relative;
   overflow: hidden;
 }
-.event-poster-container .event-item .event-info {
-  background: rgba(0, 0, 0, 0.4);
+.events-list-body .event-poster-container .event-item .event-info {
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -52,7 +63,7 @@ an image of a poster and text.
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px inset;
 }
-.event-poster-container .event-item .event-info .title {
+.events-list-body .event-poster-container .event-item .event-info .title {
   color: #fff;
   display: block;
   padding: 20px 10px;
@@ -62,34 +73,37 @@ an image of a poster and text.
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.5) 0px 2px 0px;
 }
-.event-poster-container .event-item .event-info .description:before {
+.events-list-body .event-poster-container .event-item .event-info .description:before {
   content: "Description:";
 }
-.event-poster-container .event-item .event-info .data-item {
+.events-list-body .event-poster-container .event-item .event-info .data-item {
   display: block;
-  font-size: 15px;
-  padding: 20px 10px;
+  font-size: 12px;
+  padding: 10px;
   color: #fff;
   border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
 }
-.event-poster-container .event-item .event-info .data-item:before {
+.events-list-body .event-poster-container .event-item .event-info .data-item:before {
   font-weight: bold;
   margin-right: 12px;
 }
-.event-poster-container .event-item .event-info .time:before {
+.events-list-body .event-poster-container .event-item .event-info .time:before {
   content: "Time:";
 }
-.event-poster-container .event-item .event-info .location:before {
+.events-list-body .event-poster-container .event-item .event-info .date:before {
+  content: "Date:";
+}
+.events-list-body .event-poster-container .event-item .event-info .location:before {
   content: "Location:";
 }
-.event-poster-container .event-item .event-info .description {
+.events-list-body .event-poster-container .event-item .event-info .description {
   border: 0;
   padding-top: 10px;
 }
-.event-poster-container .event-item:hover {
+.events-list-body .event-poster-container .event-item:hover {
   background: #555;
 }
-.event-poster-container .event-item:hover .event-info {
+.events-list-body .event-poster-container .event-item:hover .event-info {
   height: 305px;
   background: rgba(0, 0, 0, 0.8);
   -webkit-transition: height 0.07s, background-color 0.3s;
@@ -98,9 +112,9 @@ an image of a poster and text.
   -o-transition: height 0.07s, background-color 0.3s;
   transition: height 0.07s, background-color 0.3s;
 }
-.event-poster-container .event-item:hover .title {
+.events-list-body .event-poster-container .event-item:hover .title {
   border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
 }
-.event-poster-container .event-item img {
+.events-list-body .event-poster-container .event-item img {
   width: 100%;
 }
