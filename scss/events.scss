@@ -71,9 +71,40 @@ an image of a poster and text.
 
 				text-transform:uppercase;
 				text-align:center;
+				text-shadow:rgba(0,0,0,.5) 0px 2px 0px;
 			}
-		}
 
+
+			.description:before {
+				content: "Description:"
+			}
+			.data-item {
+				display: block;
+				font-size:15px;
+				padding:20px 10px;
+				color:#fff;
+				border-bottom: 1px rgba(255, 255, 255, .3) solid;
+			}
+
+			.data-item:before {
+				font-weight: bold;
+				margin-right:12px;
+			}
+
+						.time:before {
+				content: "Time:";
+			}
+
+			.location:before {
+				content: "Location:";
+			}
+			.description {
+				border:0;
+				padding-top:10px;
+			}
+
+
+		}
 
 		// Psuedo-classes for the event-item
 		&:hover 
@@ -84,7 +115,6 @@ an image of a poster and text.
 		&:hover .event-info {
 			height:305px;
 			background:rgba(0,0,0,.8);
-
 			@include transition(height 0.07s, background-color .3s);
 		}
 
